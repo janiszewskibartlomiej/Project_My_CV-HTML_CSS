@@ -1,0 +1,518 @@
+* {
+    font-family: "Open Sans", "Arial", sans-serif;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/*Navigation*/
+
+header {
+    display: flex;
+    background-color: #444444;
+    text-transform: uppercase;
+    border: none;
+    padding-left: 7em;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    ;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #9ac051;
+	color: #fe0000;
+	transition: color 2s;
+}
+
+nav li {
+    padding-right: 3em;
+    
+}
+
+.margin_menu {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.main-site {
+    font-weight: 700;
+}
+
+nav > ul > li.more > a > i{
+	
+	transition: transform 2s;
+}
+
+nav > ul > li.more:hover > a > i{
+	transform: rotate(90deg); 
+	transition: transform 2s;
+}
+    
+
+.submenu {
+    display: none;
+}
+
+.more {
+    margin-top: -0.059em;
+}
+
+nav > ul > li:hover .submenu{
+	display: block;
+	padding: 0.1em;
+	position: absolute;
+    background-color: #444444;
+	top: 2.9em;
+}
+
+nav > ul > li:hover .submenu li {
+    padding: 0.4em 0.5em 0.4em 0.5em;
+    
+}
+
+.logo {
+	height: 2.5em;
+    margin: 0.2em;
+}
+
+nav > ul > li.more:hover .submenu::before{
+	position: absolute;
+	content: "\f0d8";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	top: -0.7em;
+	left: 0.6em;
+    font-size: 2em;
+	color: #444444;
+	width: 100%;
+}
+
+.search {
+    color: #fff;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em    
+}
+
+button {
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em #888888;
+}
+
+button:hover {
+    background-color: #fe0000;
+    transition: background-color 2s;
+}
+
+/*core*/
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: RGBA(0,117,167,1);
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+.my_blue {
+    color: RGBA(0,117,167,1);
+}
+
+.key_informations ul li {
+    list-style: circle;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    margin-left: 2em;
+}
+
+.summary {
+    display: flex;
+    padding: 3em;
+}
+
+.left_margin {
+	margin-left: 1em;
+}
+
+.core li i, h4 i, p i {
+    color: RGBA(0,117,167,1);
+}
+
+.core h2 i {
+	color: #000;
+}
+
+.core {
+    padding: 0em 3em 3em 3em;
+	display: flex;
+}
+
+.position {
+    width: 25%;  
+	text-align: center;
+    padding-right: 5em;
+}
+
+.position h4 {
+	margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.position h2 {
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.key_informations {
+   
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+	width: 75%;
+}
+
+.key_informations > ul li {
+	padding-bottom: 0.8em;
+}
+
+span {
+    font-weight: 600;
+}
+
+.left {
+    width: 25%;
+}
+
+.left h2 {
+	padding-bottom: 0.5em;
+	border-bottom: 0.2em;
+	border-bottom-style: ridge;
+	border-bottom-right-radius: 3em;
+}
+
+.right {
+    width: 75%;
+    padding-left: .5em
+}
+
+.left h4 {
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+.left ul li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+.left ul li i, .languages p i, .additional_activities p i {
+    padding-right: 0.5em
+}
+
+.languages p, .additional_activities p {
+	margin-left: 1em;
+}
+
+.me {
+	font-family: 'Chilanka', cursive;
+}
+
+.data {
+    width: 15%;
+    height: 100%;
+}
+
+.content {
+    width: 85%;
+    height: 100%;
+}
+
+.fnx {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.images {
+    animation: animacja_zdjec 10s infinite;
+    width: 13.5em;
+    height: 18.8em;
+}
+
+@keyframes animacja_zdjec
+{
+	1% {background-image: url(/images/Me_216x300.jpg)}
+    25% {background-image: url(/images/Me_216x300.jpg)}
+	50% {background-image: url(/images/Me_216x300_2.jpg)}
+	100% {background-image: url(/images/Me_216x300_3.jpg)}
+}
+
+.title_job {
+	font-family: 'Chilanka', cursive;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+.company_job {
+    font-family: 'Dosis';
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 0.8em;
+    font-style: italic;
+    text-transform: uppercase
+}
+
+.title_respon {
+	font-family: 'Chilanka', cursive;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-decoration-line: underline;
+}
+
+.points_respon {
+    padding-left: 1em;
+    width: 85%;
+    margin-bottom: 1em;
+}
+
+.responsibilities li {
+    margin-bottom: .5em;
+    font-size: 1.07em;
+    font-weight: 200;    
+}
+
+.responsibilities li:nth-child(even) {
+    background-color: #ede8e8;
+    background-clip: inherit;
+}
+
+.responsibilities li:before {
+    position: relative;
+    content: "\f105"" " ;
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #9ac051;
+    font-size: 1.4em;
+}
+
+.points_respon p:before {
+    position: relative;
+    content: "\f105"" " ;
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #9ac051;
+    font-size: 1.4em;
+}
+
+.points_cer p:before {
+    position: relative;
+    content: "\f101"" " ;
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #9ac051;
+    font-size: 1.4em;
+}
+
+.certificates article:nth-child(even) {
+    background-color: #ede8e8;
+    width: 70%
+}
+
+
+.education article {
+    padding-bottom: 1em;
+}
+
+.tools {
+   line-height: 1.5;
+}
+
+.wsb_big_data, .u_szczecin, .agencja, .test_automation, .python_adv, .sql {
+    display: flex;
+}
+
+.data_edu {
+    width: 9em;
+    height: 100%;
+    margin-top: .2em;
+}
+
+.data_cer {
+    width: 9em;
+    height: 100%;
+    margin-top: .2em;
+    margin-bottom: 1em
+}
+
+.college {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+.data_edu > p {
+    width: 12em;
+}
+
+.wsb_big_data div div p:before {
+    position: relative;
+    content: "\f105"" " ;
+	font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #9ac051;
+    font-size: 1.4em;
+}
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    background-color: #444444;
+    padding: 3em 7em;
+    color: #fff;
+}
+
+footer > section {
+    width: 16em;
+}
+
+.about-us h5 {
+    font-family: "Times New Roman", serif;
+    font-weight: 200;
+    margin: 0 0 .5em 0;
+    font-size: 1.7em;
+}
+
+.about-us p {
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin: 0 0 1em 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-media li {
+    background-color: #9ac051;
+    margin-right: .7em;
+    height: 2.1em;
+    width: 2.1em;
+    border-radius: .4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-details {
+    width: 12em;
+    margin-left: 2em;
+    margin-top: .2em
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    font-size: 1.2em;
+    margin-bottom: .8em;
+    display: flex;
+}
+
+.contact-details i {
+    margin-right: 1em;
+    color: #9ac051;
+}
+
+.contact-details li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.quick-links {
+    display: flex;
+    width: 22em;
+    margin-left: 3em;
+}
+
+.quick-links ul {
+    padding: 0;
+    margin: 0 1em 0 0;
+    list-style: none;
+    width: 10em;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.quick-links li {
+    border-bottom: .5px solid #666464;
+    padding: 0.51em 0;
+}
+
+.quick-links ul li:first-child {
+    padding-top: 0;
+}
+
+.quick-links a i {
+    color: #9ac051;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+/*Copyright*/
+
+.copyright {
+    background-color: #9ac051;
+    height: 3em;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 1em;
+    
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
