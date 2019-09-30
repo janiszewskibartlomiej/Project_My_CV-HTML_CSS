@@ -244,7 +244,7 @@ span {
 
 .fnx_logo {
     
-    margin: 1em 2em;
+    padding: 1em 2em;
 }
 
 .images img {
@@ -296,7 +296,8 @@ span {
 .responsibilities li {
     margin-bottom: .5em;
     font-size: 1.07em;
-    font-weight: 200;    
+    font-weight: 200;
+    line-height: 1.5;
 }
 
 .responsibilities li:nth-child(even) {
@@ -350,14 +351,16 @@ span {
    line-height: 1.5;
 }
 
-.wsb_big_data, .u_szczecin, .agencja, .test_automation, .python_adv, .sql, .python, .istqb_fl, .agile, .ccent, .processes{
+.wsb_big_data, .u_szczecin, .agency, .test_automation, .python_adv, .sql, .python, .istqb_fl, .agile, .ccent, .processes, .wsb_eu, .wsb_account, .it {
     display: flex;
 }
 
+article div p {
+    line-height: 1.5;
+}
 .data_edu {
     width: 9em;
     height: 100%;
-    margin-top: .2em;
 }
 
 .wsb_logo {
@@ -365,9 +368,19 @@ span {
     margin: 1em 2em;
 }
 
+.poznan_logo {
+    width: 6em;
+    margin: 1em 1.7em;
+}
+
 .us_logo {
     width: 4.1em;
     margin: 1em 2em 2em 2.2em;
+}
+
+.cku_logo {
+    width: 5em;
+    margin: 2.3em 2em;
 }
 
 .data_cer {
@@ -396,6 +409,10 @@ span {
 
 .data_edu > p {
     width: 12em;
+}
+
+.ccent > div > p {
+    margin-right: 7em;
 }
 
 .wsb_big_data div div p:before {
