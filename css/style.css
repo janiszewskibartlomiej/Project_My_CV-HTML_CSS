@@ -410,14 +410,6 @@ article div p {
     padding-bottom: .2em;
 }
 
-.agile > div {
-    margin-right: 3em;
-}
-
-.test_automation > div {
-    margin-right: 2.5em;
-}
-
 .college {
     font-family: 'Inconsolata', monospace;
     font-weight: 300;
