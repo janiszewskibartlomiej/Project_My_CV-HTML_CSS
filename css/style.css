@@ -98,7 +98,7 @@ nav > ul > li.more:hover .submenu::before{
 .search {
     color: #fff;
     padding-top: 0.75em;
-    padding-bottom: 0.75em    
+    padding-bottom: 0.75em;  
 }
 
 button {
@@ -141,7 +141,7 @@ h4 {
 }
 
 .left_margin {
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 .core li i, h4 i, p i {
@@ -160,7 +160,7 @@ h4 {
 .position {
     width: 25%;  
 	text-align: center;
-    padding-right: 1em;
+    margin-right: 2em;
 }
 
 .position h4 {
@@ -245,27 +245,27 @@ span {
 
 .fnx_logo {
     
-    margin: 4em .5em;
-    width: 6em;
+    margin: 4.5em .5em;
+    width: 65%;
 }
 
 .audi_r8 {
-    width: 6.5em;
-    margin: 4em 0.2em;
+    width: 70%;
+    margin: 4.5em 0.2em;
 }
 
 .efekt {
-    width: 6em;
-    margin: 4em 0.5em;
+    width: 65%;
+    margin: 4.5em 0.5em;
 }
 
 .porshe {
-    width: 6.5em;
-    margin: 4em .2em;}
+    width: 70%;
+    margin: 4.5em .2em;}
 
 .provident {
-    width: 6em;
-    margin: 4em .5em;
+    width: 65%;
+    margin: 4.5em .5em;
 }
 
 
@@ -386,22 +386,22 @@ article div p {
 }
 
 .wsb_logo {
-    width: 5em;
+    width: 45%;
     margin: 1em 2em;
 }
 
 .poznan_logo {
-    width: 6em;
+    width: 55%;
     margin: 1em 1.7em;
 }
 
 .us_logo {
-    width: 4.1em;
+    width: 36%;
     margin: 1em 2em 2em 2.2em;
 }
 
 .cku_logo {
-    width: 5em;
+    width: 45%;
     margin: 2.3em 2em;
 }
 
