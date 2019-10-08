@@ -63,6 +63,7 @@ nav > ul > li.more:hover > a > i{
 
 .more {
     margin-top: -0.059em;
+	min-width: max-content;
 }
 
 nav > ul > li:hover .submenu{
