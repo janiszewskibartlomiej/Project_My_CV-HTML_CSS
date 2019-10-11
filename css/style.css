@@ -1,7 +1,7 @@
 * {
     font-family: "Open Sans", "Arial", sans-serif;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 /*Navigation*/
@@ -446,12 +446,13 @@ article div p {
 footer {
     display: flex;
     background-color: #444444;
-    padding: 3em 7em;
+    padding: 2em 1em;
     color: #fff;
+    justify-content: space-around;
 }
 
 footer > section {
-    width: 16em;
+    width: 20%;
 }
 
 .about-us h5 {
@@ -462,9 +463,9 @@ footer > section {
 }
 
 .about-us p {
-    font-size: 1.3em;
+    font-size: 120%;
     line-height: 1.2;
-    margin: 0 0 1em 0;
+    margin: 0 0 em 0;
 }
 
 .social-media {
@@ -476,9 +477,10 @@ footer > section {
 
 .social-media li {
     background-color: #9ac051;
-    margin-right: .7em;
-    height: 2.1em;
+    margin-right: .6em;
     width: 2.1em;
+    height: 1.3em;
+    min-width: 1.1em;
     border-radius: .4em;
     display: flex;
     justify-content: center;
@@ -541,6 +543,7 @@ social-media a {
 .quick-links li {
     border-bottom: .5px solid #666464;
     padding: 0.51em 0;
+    max-width: 9.3em;
 }
 
 .quick-links ul li:first-child {
