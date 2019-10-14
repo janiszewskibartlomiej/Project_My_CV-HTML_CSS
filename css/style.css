@@ -203,7 +203,7 @@ span {
 
 .right {
     width: 75%;
-    padding-left: 3em
+    padding-left: 3em;
 }
 
 .left h4 {
@@ -330,7 +330,7 @@ span {
 
 .responsibilities li:before {
     position: relative;
-    content: "\f105"" " ;
+    content: "\f105"" ";
 	font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: #9ac051;
@@ -339,7 +339,7 @@ span {
 
 .points_respon p:before {
     position: relative;
-    content: "\f105"" " ;
+    content: "\f105"" ";
 	font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: #9ac051;
@@ -355,13 +355,13 @@ span {
     font-size: 1.4em;
 }
 
-.certificates article:nth-child(even) {
+#list_of_certificates article:nth-child(even) {
     background-color: #ede8e8;
     width: 95%;
     margin-bottom: 1em
 }
 
-.certificates article:nth-child(odd) {
+#list_of_certificates article:nth-child(odd) {
     width: 95%;
     margin-bottom: 1em
 }
