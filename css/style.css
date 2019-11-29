@@ -12,6 +12,10 @@ header {
     border: none;
 }
 
+br {
+    font-size: 115px;
+}
+
 nav > ul {
     display: flex;
     list-style: none;
@@ -353,6 +357,11 @@ span {
     font-weight: 900;
     color: #9ac051;
     font-size: 1.4em;
+}
+
+.points_cer {
+    justify-content: center;
+    align-items: center;
 }
 
 #list_of_certificates article:nth-child(even) {
